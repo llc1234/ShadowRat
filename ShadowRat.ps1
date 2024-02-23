@@ -1,5 +1,5 @@
-$url = "https://discord.com/api/v9/channels/1210194870850031656/messages"
-$discordToken = "MTE5ODY3Njc4NTg5MDYwNzE3Nw.GnqMWY.3rwKiCVRerCjS_meDerhJDfubEZWbrwbrsYA_k"
+$url = ""
+$discordToken = ""
 
 $headers = @{
     Authorization = $discordToken
