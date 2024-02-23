@@ -1,4 +1,4 @@
-$url = ""
+$url = "<DISCORD_CHANNEL_URL>"
 $discordToken = ""
 
 $headers = @{
