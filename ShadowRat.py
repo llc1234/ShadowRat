@@ -3,7 +3,7 @@ import requests
 import subprocess
 
 
-url = ""
+url = "<DISCORD_CHANNEL_URL>"
 discord_token = ""
 
 headers = {
