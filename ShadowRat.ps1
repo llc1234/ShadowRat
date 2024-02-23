@@ -28,7 +28,7 @@ while ($true) {
 
             } catch {
                 $body = @{
-                    "content" = "too long message or command errror"
+                    "content" = "too long message or command error"
                 }
         
                 $bodyJson = $body | ConvertTo-Json
