@@ -4,7 +4,7 @@ import subprocess
 
 
 url = "<DISCORD_CHANNEL_URL>"
-discord_token = ""
+discord_token = "<DISCORD_BOT_TOKEN>"
 
 headers = {
     "Authorization": discord_token
