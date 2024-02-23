@@ -33,4 +33,4 @@ Ensure that the Discord bot has the necessary permissions to read messages, send
 
 
 <h1>Disclaimer:</h1>
-This script is for educational purposes only, and the author is not responsible for any misuse or damage caused by its use.
+This script is for educational purposes only, and the llc1234 is not responsible for any misuse or damage caused by its use.
