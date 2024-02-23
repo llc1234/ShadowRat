@@ -22,7 +22,7 @@ Run the script, and the bot will start monitoring the specified Discord channel 
 
 <h1>How it works</h1>
 The script uses the Invoke-WebRequest cmdlet to retrieve the latest message from the specified Discord channel.
-If the message content starts with <shell>, the script extracts the shell command from the message.
+If the message content starts with shell, the script extracts the shell command from the message.
 It then attempts to execute the shell command using Invoke-Expression.
 The script captures the command output and constructs a multipart/form-data request to send the output back to the Discord channel.
 If an error occurs during command execution, the script sends an error message to the Discord channel.
