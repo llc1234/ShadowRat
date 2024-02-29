@@ -12,7 +12,7 @@ Before running the script, make sure to set the following variables:
 
 ```powershell
 $url = "<DISCORD_CHANNEL_URL>"
-$discordToken = "<DISCORD_BOT_TOKEN>"
+$discordToken = "<DISCORD_TOKEN>"
 $master_ID = "<DISCORD_AUTHOR_ID>"
 ```
 
