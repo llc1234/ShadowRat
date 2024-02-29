@@ -16,7 +16,7 @@ $headers = @{
 while ($true) {
     Start-Sleep -Seconds 15
 
-    # Clear-Host
+    Clear-Host
 
     $response = Invoke-WebRequest -Uri ($url + "?limit=1") -Headers $headers
 
