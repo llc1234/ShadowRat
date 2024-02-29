@@ -1,5 +1,5 @@
 $url = "<DISCORD_CHANNEL_URL>"
-$discordToken = "<DISCORD_BOT_TOKEN>"
+$discordToken = "<DISCORD_TOKEN>"
 
 $headers = @{
     Authorization = $discordToken
