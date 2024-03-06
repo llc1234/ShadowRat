@@ -9,8 +9,8 @@ class Program {
         Program program = new Program();
 
 
-        string url = "https://discord.com/api/v9/channels/1210194870850031656/messages";
-        string discordToken = "MTE5ODY3Njc4NTg5MDYwNzE3Nw.GnqMWY.3rwKiCVRerCjS_meDerhJDfubEZWbrwbrsYA_k";
+        string url = "";
+        string discordToken = "";
 
         HttpClient httpClient = new HttpClient();
         httpClient.DefaultRequestHeaders.Add("Authorization", discordToken);
